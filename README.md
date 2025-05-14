@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dashboard E-commerce
 
-## Getting Started
+Um dashboard moderno e intuitivo para gerenciamento de e-commerce, desenvolvido como MVP (Produto Mínimo Viável).
 
-First, run the development server:
+![Dashboard Preview](https://ik.imagekit.io/q5tv5x3k8/Prints/Captura%20de%20tela%202025-05-14%20140844.png?updatedAt=1747242570613)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**[Link do Deploy](https://dashboard-ecommerce-omega.vercel.app/)** ( pré-visualização do dashboard )
+
+
+## 📋 Sobre o Projeto
+
+Este projeto é um MVP de um dashboard administrativo para plataformas de e-commerce. Construído com tecnologias modernas, ele oferece uma interface intuitiva para visualização de dados de vendas, gerenciamento de produtos, acompanhamento de pedidos e análise de desempenho do negócio.
+
+## ✨ Funcionalidades
+
+- **Visão Geral de Vendas:** Gráficos e métricas para acompanhamento de desempenho
+- **Layout Responsivo:** Experiência consistente em dispositivos desktop e móveis
+
+## 🚀 Tecnologias Utilizadas
+
+- **[Next.js](https://nextjs.org/):** Framework React para renderização híbrida e rotas API
+- **[TypeScript](https://www.typescriptlang.org/):** Suporte a tipagem estática para desenvolvimento mais seguro
+- **[NPM](https://www.npmjs.com/):** Gerenciador de pacotes
+
+### Bibliotecas
+
+- **[shadcn/ui](https://ui.shadcn.com/):** Componentes de UI reutilizáveis e acessíveis
+- **[Recharts](https://recharts.org/):** Biblioteca para criação de gráficos responsivos
+- **[Lucide React](https://lucide.dev/):** Conjunto de ícones consistentes e personalizáveis
+
+## 🛠️ Instalação e Uso
+
+### Pré-requisitos
+
+- Node.js (versão 16 ou superior)
+- NPM ou Yarn
+
+### Instalação
+
+1. Clone o repositório
+   ```bash
+   git clone https://github.com/josifermaodev/dashboard-ecommerce.git
+   ```
+
+2. Acesse o diretório do projeto
+   ```bash
+   cd dashboard-ecommerce
+   ```
+
+3. Instale as dependências
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento
+   ```bash
+   npm run dev
+   ```
+
+5. Acesse `http://localhost:3000` no seu navegador
+
+## 🧩 Estrutura do Projeto
+
+```
+dashboard-ecommerce/
+├── app/
+│   ├── api/            # Rotas API do Next.js
+│   ├── dashboard/      # Páginas do dashboard
+│   └── layout.tsx      # Layout principal da aplicação
+├── components/         # Componentes reutilizáveis
+├── lib/                # Funções utilitárias
+├── public/             # Arquivos estáticos
+└── styles/             # Arquivos de estilo
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📊 Demonstração
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O projeto oferece uma interface intuitiva para visualização das principais métricas de um e-commerce, incluindo:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Receita total por período
+- Número de vendas por período
+- Ultimos clientes
+- Número de clientes cadastrados por período
+- Overview de vendas (mobile/desktop)
 
-## Learn More
+## 🔜 Próximos Passos
 
-To learn more about Next.js, take a look at the following resources:
+- **Gerenciamento de Produtos:** Cadastro, edição e visualização do catálogo
+- **Acompanhamento de Pedidos:** Status e histórico de pedidos
+- **Relatórios:** Exportação e análise de dados
+- **Gerenciamento de Clientes:** Visualização de informações de clientes
+- **Integração de IA:** Análise de dados, previsões e dicas.
+- Implementação de autenticação de usuários
+- Integração com APIs de pagamento
+- Personalização de temas
+- Dashboard para análise de métricas avançadas
+- Sistema de notificações em tempo real
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👨‍💻 Autor
 
-## Deploy on Vercel
+Desenvolvido por [Josiane Fermao](https://github.com/josifermaodev).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⭐️ Este projeto? [Me siga no GitHub](https://github.com/josifermaodev) para mais projetos interessantes!
